@@ -1,0 +1,135 @@
+.container {
+  padding: 10px;
+}
+
+.logo {
+  margin-top: 105px;
+  position: absolute;
+  width: 76px;
+  height: 22px;
+  margin-left: 20px;
+  background: url(../../images/Logo.png);
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 308px;
+  height: 168px;
+  margin-top: 95px;
+  margin-left: 36px;
+  background: url(../../images/picture2\ 1.png);
+}
+
+.boxLine {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 62px;
+}
+
+.image {
+  position: absolute;
+  width: 380px;
+  height: 8px;
+  left: 0px;
+  top: 265px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.ellipse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 240px;
+  background: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+  border-radius: 50px;
+}
+
+.avatar {
+  width: 68px;
+  margin-left: -55px;
+  position: absolute;
+  margin-top: 230px;
+  border-radius: 150px;
+  background: url(../../images/Boy.png);
+}
+
+.list {
+  position: absolute;
+  width: 132px;
+  height: 24px;
+  margin-left: 124px;
+  margin-top: 284px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+
+.text {
+  position: absolute;
+  width: 214px;
+  height: 24px;
+  margin-left: 103px;
+  margin-top: 324px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+
+.formic {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 374px;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  width: 380px;
+  height: 460px;
+  border-radius: 20px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  gap: 6px;
+  width: 196px;
+  height: 50px;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+}

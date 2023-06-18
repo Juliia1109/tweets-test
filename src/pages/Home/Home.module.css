@@ -1,0 +1,26 @@
+.container {
+  min-height: calc(80vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(82, 110, 202),
+    white 35%,
+    white 65%,
+    rgb(82, 110, 202)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 center;
+}
+
+.title {
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(21deg, #471ca9, #5611ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

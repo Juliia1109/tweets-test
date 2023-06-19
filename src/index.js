@@ -7,7 +7,7 @@ import 'modern-normalize';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/tweets-test/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
